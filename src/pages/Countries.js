@@ -74,15 +74,27 @@ render() {
             </Row >
 
             <Row className="my-1">
-            <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
-            <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
-            <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
+            <Col lg={4}>
+            <a style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>Australia</a>
+                <img src="https://images.unsplash.com/photo-1524293581917-878a6d017c71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" style={{width:'100%', height:'100%'}} alt="Australia" /></Col>
+            <Col lg={4}>
+            <a style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>Senegal</a>
+                <img src="https://images.unsplash.com/photo-1524518910477-9a1dc078365e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
+            <Col lg={4}>
+            <a style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>France</a>
+                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2014&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
             </Row>
 
             <Row className="">
-            <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
-            <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
-            <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
+            <Col lg={4}>
+            <a style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>Argentina</a>
+                <img src="https://images.unsplash.com/photo-1521058798685-39dd95c33314?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
+            <Col lg={4}>
+            <a style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>Poland</a>
+                <img src="https://images.unsplash.com/photo-1535232843222-a40c29436fd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2118&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
+            <Col lg={4}>
+            <a style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>Panama</a>
+                <img src="https://images.unsplash.com/photo-1538800933850-8c7ba3538694?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
             </Row>
 
         </Container>
