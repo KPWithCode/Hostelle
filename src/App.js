@@ -7,6 +7,7 @@ import Hostels from './pages/Hostels';
 import SingleHostel from './pages/Singlehostel';
 import Error from './pages/Error';
 import Navbar from './Nav/Navbar';
+import Countries from './pages/Countries';
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
      <Navbar />
    <Switch>
    <Route exact path="/" component={Home} />
+   <Route exact path="/countries" component={Countries} />
    <Route exact path="/hostels" component={Hostels} />
    <Route exact path="/singlehostel" component={SingleHostel} />
    <Route component={Error} />
