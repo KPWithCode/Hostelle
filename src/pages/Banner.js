@@ -1,25 +1,18 @@
-// import React from 'react';
+import React from 'react';
 
-// export interface IBannerProps {
-//     title: TravelYourWay,
-//     subtitle: Find Yours,
-// }
-// const Banner: React.SFC<IBannerProps> = (props) =>{
-// const { title,subtitle,children } = props.banner
+const Banner=() =>{
 
-// return (
-//     <div>
-//         <h1>HI: {title}</h1>
-//         <p>{subtitle}</p>
-//         {children}
-//     </div>
+return (
+    <div className="border border-success " style={{position:'absolute', top:'100%', backgroundColor:'#9AA6D3', }}>
+        <a style={{fontSize:'70px',fontWeight:'700' }}className="coolFont" >NOT A DESTINATION</a>
+    </div>
 
 
     
-// )
+)
 
-// } 
-// export default Banner;
+} 
+export default Banner;
 
   
 
