@@ -49,25 +49,42 @@ render() {
 
         <Container className="" style={{height:'100vh', width:'100vh'}} >
             <Row className="my-1">
-            <Col lg={4}><img src="https://images.unsplash.com/photo-1536082555308-99948d5c8ecf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80" style={{width:'100%', height:'100%'}} alt="Brazil" /></Col>
-            <Col lg={4}><img src="https://images.unsplash.com/photo-1506461883276-594a12b11cf3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
-            <Col lg={4}><img src="https://images.unsplash.com/photo-1557846978-e801fff1c245?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
+            <Col lg={4}>
+            <a style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>Brazil</a>
+                <img src="https://images.unsplash.com/photo-1536082555308-99948d5c8ecf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80" style={{width:'100%', height:'100%'}} alt="Brazil" /></Col>
+
+            <Col lg={4}>
+            <a style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>India</a>
+                <img src="https://images.unsplash.com/photo-1506461883276-594a12b11cf3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" style={{width:'100%', height:'100%'}} alt="India" /></Col>
+            <Col lg={4}>
+            <a style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>Bhutan</a>
+                <img src="https://images.unsplash.com/photo-1553351234-d0eb4feecb93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2106&q=80" style={{width:'100%', height:'100%'}} alt="Bhutan" /></Col>
             </Row>
+
             <Row className="my-1">
-            <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
-            <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
-            <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
+            <Col lg={4}>
+            <a style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>England</a>
+                <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" style={{width:'100%', height:'100%'}} alt="England London, UK" /></Col>
+            <Col lg={4}>
+            <a style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>Germany</a>
+                <img src="https://images.unsplash.com/photo-1527142573877-7d395d8fa568?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80" style={{width:'100%', height:'100%'}} alt="Berlin, Germany" /></Col>
+            <Col lg={4}>
+            <a style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>Switzerland</a>
+                <img src="https://images.unsplash.com/photo-1527668752968-14dc70a27c95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" style={{width:'100%', height:'100%'}} alt="Switzerland" /></Col>
             </Row >
+
             <Row className="my-1">
             <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
             <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
             <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
             </Row>
+
             <Row className="">
             <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
             <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
             <Col lg={4}><img src="https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" style={{width:'100%', height:'100%'}} alt="hostel pic" /></Col>
             </Row>
+
         </Container>
     )
 }
