@@ -47,8 +47,8 @@ render() {
 // </div>  
 //  </div>
 
-        <Container className="" style={{height:'100vh', width:'100vh'}} >
-            <CountryBanner />
+        <Container style={{height:'100vh', width:'100vh'}} >
+            <CountryBanner  />
             <Row className="my-1">
             <Col lg={4}>
             <span style={{position: 'absolute', top: '10%', left:'50%',transform: 'translate(-50%, -50%)', fontSize:'20px' }}>Brazil</span>
