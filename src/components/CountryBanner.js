@@ -21,25 +21,29 @@ export default class CountryBanner extends Component {
     
       handleShow() {
         this.setState({ show: true });
+        console.log('1')
       }
+    //   toggleModal = () => {
+    //     this.setState(prevState => ({ showModal: !prevState.showModal }))
+    //   }
+  
 
 render() {
     return(
-<div onClick={e => e.stopPropagation()} className="d-flex justify-content-center">
-<Modal.Dialog  style={{position:'absolute',top:'10%',zIndex:'1000', width:'50%' }} >
-  <Modal.Header>
-    <Modal.Title style={{fontWeight:'700'}} >COMING SOON!!!</Modal.Title>
-  </Modal.Header>
-
-  <Modal.Body style={{fontWeight:'700'}}>
-    <p>CHECK OUT THE COUNTRIES WE ARE TARGETING</p>
-  </Modal.Body>
-
-  <Modal.Footer>
-    <Button onClick={this.handleClose} variant="primary">Close</Button>
-  </Modal.Footer>
-</Modal.Dialog>
-</div>
+    <div className="d-flex justify-content-center">   
+        <Modal show={this.state.show} onHide={this.handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title style={{fontWeight:'700'}} >COMING SOON !!!</Modal.Title>
+          </Modal.Header>
+          <Modal.Body style={{fontWeight:'700'}} >CHECKOUT THE COUNTRIES WE ARE LOOKING TO LIST</Modal.Body>
+          <Modal.Footer>
+            <Button variant="primary" onClick={this.handleClose}>
+              Close
+            </Button>
+          
+          </Modal.Footer>
+        </Modal>
+    </div>
         )
     }
 }
